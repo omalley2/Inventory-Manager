@@ -1,0 +1,17 @@
+{
+  "name": "inventory-tracker",
+  "version": "1.0.0",
+  "description": "CLI Inventory Management System using PostgreSQL",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["inventory", "postgresql", "cli"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "8.2.4",
+    "pg": "^8.11.3",
+    "dotenv": "^16.3.1"
+  }
+}
